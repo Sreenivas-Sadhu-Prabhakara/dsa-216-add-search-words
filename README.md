@@ -12,6 +12,13 @@ Plain trie storage (dsa-185); all the novelty is in search. A literal character 
 
 **Complexity:** AddWord O(len); Search O(len) without dots, up to O(26^dots · len) with.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
